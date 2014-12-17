@@ -1,0 +1,23 @@
+{
+  "name": "node-trello-lead-time",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "repository": "",
+  "author": "Lionel Molas",
+  "scripts": {
+    "test": "mocha --reporter spec test"
+  },
+  "dependencies": {
+    "express": "^4.10.1",
+    "mathjs": "*",
+    "moment": "*",
+    "request": "*"
+  },
+  "devDependencies": {
+    "mocha": "^2.0.1",
+    "should": "^4.3.0",
+    "sinon": "^1.11.1",
+    "supertest": "^0.15.0"
+  }
+}
